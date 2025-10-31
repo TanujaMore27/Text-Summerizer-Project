@@ -7,7 +7,7 @@ __version__="0.0.0"
 
 REPO_NAME ="Text-Summerizer-Project"
 AUTHOR_USER_NAME ="TanujaMore27"
-SRC_REPO ="Text-Summerizer-Project"
+SRC_REPO ="Text_Summerizer_Project"
 AUTHOR_EMAIL ="moretanuja971@gmail.com"
 
 setuptools.setup(
