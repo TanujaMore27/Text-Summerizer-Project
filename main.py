@@ -1,0 +1,1 @@
+from Text_Summerizer_Project.logging import logger
