@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Summarizer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Text Summarizer</title>
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>🧠 Text Summarizer</h1>
-        <textarea id="inputText" placeholder="Paste your text here..."></textarea>
-        <button id="summarizeBtn">Summarize</button>
-        <h3>Summary:</h3>
-        <div id="outputText"></div>
-    </div>
-    <script src="script.js"></script>
+  <h1>🧠 Text Summarizer</h1>
+
+  <textarea id="inputText" rows="10" cols="100" placeholder="Paste your text here..."></textarea><br>
+
+  <h3>OR Upload a File:</h3>
+  <input type="file" id="fileInput" accept=".txt, .pdf"><br><br>
+
+  <button onclick="summarizeText()">Summarize</button>
+
+  <h3>Summary:</h3>
+  <p id="summaryOutput"></p>
 </body>
 </html>
